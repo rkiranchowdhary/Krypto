@@ -1,0 +1,88 @@
+<html>
+	<head><title>CRYPTO MONITER</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="bootstrap.min.css">
+	  <script src="jquery.min.js"></script>
+	  <script src="bootstrap.min.js"></script>
+	  <script src="index.js" ></script>
+		<style type="text/css">
+			.header {
+				margin-top: 10px;
+				margin-bottom: 10px;
+				color: black;
+				font-size: 20px;
+				text-align: center;
+				border: none;
+			}
+			.reload{
+				height: 50px;
+			    background-image: url(reload.png);
+			    background-repeat: no-repeat;
+			    position: relative;		
+			    width: 50px;	
+			}
+			@media screen and (min-width: 900px) {
+			  .reload { display: none; }
+			}
+		</style>
+	</head>
+	<body> 
+		<div class="container container-fluid">
+			<div class="row" style="background-color: #337ab7; border-color: #2e6da4;">
+				<div class="col-xl-2 col-lg-2 col-md-8"> </div>
+				<div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 " style="text-align: center;">
+					<a class="btn btn-primary header" href="#">Crypto moniter</a>
+					<button type="button" class="btn btn-primary reload" onclick="check()"></button>
+				</div>
+				<div class="col-xl-2 col-md-2 col-lg-2">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xl-2 col-lg-1 col-sm-1 col-xs-1"> </div>
+				<div class="input-group col-xl-8 col-md-10 col-sm-10 col-xs-10">
+					<br>
+					<div class="table-responsive">
+						<table class="table">
+							<thead>
+								<th> # </th>
+								<th>Coin</th>
+								<th>Site</th>
+								<th>Price</th>
+								<th>Link</th>
+							</thead>
+							<tbody id="coins-table">
+								<tr> <td>1</td> <td>XRP</td> <td>BTCX India</td> <td></td> <td><a target="_blank" href="https://m.btcxindia.com/trade"> Go </a></td> </tr>
+								<tr> <td>2</td> <td>XRP</td> <td>KOINEX India</td> <td></td> <td><a target="_blank" href="https://koinex.in/exchange/ripple"> Go </a></td> </tr>
+								<tr> <td>3</td> <td>ETH</td> <td>ETHEX India</td> <td></td> <td><a target="_blank" href="https://m.ethexindia.com/trade"> Go </a></td> </tr>
+								<tr> <td>4</td> <td>ETH</td> <td>KOINEX India</td> <td></td> <td><a target="_blank" href="https://koinex.in/exchange/ether"> Go </a></td> </tr>
+								<tr> <td>5</td> <td>BTC</td> <td>KOINEX India</td> <td></td> <td><a target="_blank" href="https://koinex.in/exchange/bitcoin"> Go </a></td> </tr>
+								<tr> <td>6</td> <td>BCH</td> <td>KOINEX India</td> <td></td> <td><a target="_blank" href="https://koinex.in/exchange/bitcoin_cash"> Go </a></td> </tr>
+								<tr> <td>7</td> <td>LTC</td> <td>KOINEX India</td> <td></td> <td><a target="_blank" href="https://koinex.in/exchange/litecoin"> Go </a></td> </tr>
+							</tbody>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td> &mdash; </td>
+									<td>ALL</td>
+									<td>Cryptocompare</td>
+									<td>&mdash;</td>
+									<td><a target="_blank" href="https://www.cryptocompare.com/coins/#/INR">Go</a></td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-1 col-sm-1 col-xs-1"> </div>
+			</div>
+		</div>
+		<footer class="footer" style="position: absolute; bottom: 0;w idth: 100%; height: 60px; line-height: 60px; background-color: #f2f2f2; width: 100%">
+	      <div class="container" style="text-align: center; border-top:1px solid #e4e4e4">
+	        <span>Developed by <a target="_blank" href="https://about.me/rkchowdhary">Kiran &copy;howdhary</a></span>
+	      </div>
+	    </footer>
+		
+	</body>
+
+</html>
